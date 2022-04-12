@@ -8,7 +8,7 @@
 int main(void)
 {
 int i;
-char str[30] = "Size of f";
+char str[3] = "Size of 3";
 float f;
 long int li;
 long long int lli;
