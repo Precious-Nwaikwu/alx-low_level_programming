@@ -1,1 +1,1 @@
-C programming beginner
+Debugging beginner
