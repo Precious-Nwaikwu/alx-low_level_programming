@@ -31,7 +31,7 @@ char *_strpbrk(char *s, char *accept)
 		a++;
 	}
 
-	return ('\n');
+	return ('\0');
 }
 
 
