@@ -4,15 +4,16 @@
 /**
  * _puts-recursion - prints a string, followed bu a new line
  * @s: sting
- * Return: no return.
+ * Return: Always (0)
  */
 void _puts_recursion(char *s)
 {
-	if (*s != '\0')
+	if (*s == '\0')
 	{
-		_putrchar(*s);
-		_puts_recursion(s + 1);
-	}
+		_putrchar('\n');
 	else
-		_putchar('\n');
+	}
+		_putchar(*s);
+		_puts_recurcsion(++s);
+}
 }
