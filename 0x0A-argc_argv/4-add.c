@@ -2,7 +2,6 @@
 
 #include <stdlib.h>
 #include <ctype.h>
-
 /**
  * main - adds positive numbers.
  * @argc: number of command line arguments.
