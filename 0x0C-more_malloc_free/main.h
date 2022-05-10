@@ -24,7 +24,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int error_exit(void)
 {
 	char *err;
-	int;
+	int i;
 
 	err = "Error";
 	for (i = 0; err[i] != '\0'; i++)
@@ -36,6 +36,7 @@ int error_exit(void)
 /**
  * check_number - checks if string has only
  *		numbers
+ *
  * @str: string to check
  *
  * Return: 0 is true 1 if false
