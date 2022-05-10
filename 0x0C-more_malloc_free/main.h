@@ -1,6 +1,6 @@
 
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -70,4 +70,4 @@ int _length(char *str)
 	return (i);
 }
 
-#endif /* MAIN_H_ */
+#endif /* MAIN_H */

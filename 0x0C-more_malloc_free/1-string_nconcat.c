@@ -11,7 +11,7 @@
  * Return: newly allocated space in memory;
  * NULL if the function fails
  */
-char *string_nconcat(char *s1, char s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ar;
 	unsigned int i = 0;
@@ -25,7 +25,7 @@ char *string_nconcat(char *s1, char s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	while (s2[i])
+	while (s1[i])
 		i++;
 	while (s2[j])
 		j++;
