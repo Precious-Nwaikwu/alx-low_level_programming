@@ -12,7 +12,7 @@ int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int _putchar(char c);
 
-/* functions for 101-mul.c */
+/*functions for 101-mul.c */
 
 /**
  * error_exit - prints error with _putchar and exits with 98
