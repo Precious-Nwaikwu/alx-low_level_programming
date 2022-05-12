@@ -1,1 +1,1 @@
-Debugging beginner
+Structures, typeof
