@@ -4,7 +4,7 @@
 
 /*
  * File: variadic_functions.h
- * Auth: Precious Nwaikwu
+ * Auth: Precious.Nwaikwu
  * Desc: Header file containing prototypes for all functions
  * 	used in the 0x0F-variadic_functions directory.
  */
@@ -17,7 +17,7 @@
  * @print: A function pointer to a function that prints
  * 	a data type corresponding to symbol.
  */
-typedef strct printer
+typedef struct printer
 {
 	char *symbol;
 	void (*print)(va_list arg);
@@ -27,6 +27,6 @@ typedef strct printer
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *seperator, const unsigned int n, ...);
 void print_strings(const char *seperator, const unsigned int n, ...);
-void print_all(const char * const format, ...);
+void print_all(const char * const format, ...;
 
 #endif
