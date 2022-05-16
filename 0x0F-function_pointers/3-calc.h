@@ -1,4 +1,3 @@
-
 #ifndef _CALC_H_
 #define _CALC_H_
 
@@ -24,7 +23,6 @@ int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
 #endif
-
 
 function_pointers.h
 
