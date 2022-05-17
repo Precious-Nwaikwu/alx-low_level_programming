@@ -4,7 +4,7 @@
 
 /*
  * File: variadic_functions.h
- * Auth: Precious-Nwaikwu
+ * Auth: Precious.Nwaikwu
  * Desc: Header file containing prototypes for all functions used in the 0x0F-variadic_functions directory.
  */
 
