@@ -1,5 +1,5 @@
-#ifndef _CALC_H_
-#define _CALC_H_
+#ifndef CALC_H
+#define CALC_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -26,8 +26,8 @@ int (*get_op_func(char *s))(int, int);
 
 function_pointers.h
 
-#ifndef _FUNCTION_POINTERS_
-#define _FUNCTION_POINTERS_
+#ifndef FUNCTION_POINTERS
+#define FUNCTION_POINTERS
 
 #include <stdlib.h>
 
